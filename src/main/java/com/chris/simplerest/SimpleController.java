@@ -11,6 +11,6 @@ public class SimpleController {
     @GetMapping("hello")
     public String getHello() {
         log.info("Info Received");
-        return "Hello Guys";
+        return "Hello Gals";
     }
 }
